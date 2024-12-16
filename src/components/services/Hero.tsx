@@ -4,7 +4,7 @@ export function Hero() {
     return (
       <section 
         className="relative h-[60vh] bg-cover bg-center text-white flex items-center"
-        style={{ backgroundImage: "url('https://drive.google.com/file/d/157Pg7KW0ectdBhZAVj2ZXrzzPNRKxxal/view?usp=sharing')" }} // Replace with your image path
+        style={{ backgroundImage: "url('/src/assets/service_hero.jpg')" }} // Replace with your image path
       >
         <div className="container mx-auto px-6">
           <h1 className="font-jacques text-5xl mb-4 text-center">
