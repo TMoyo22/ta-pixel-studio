@@ -4,13 +4,13 @@ const team = [
   {
     name: 'Tatenda Moyo',
     role: 'Co-Founder and Developer',
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7',
+    image: '../src/assets/tee_founder.jpg',
     linkedin: '#'
   },
   {
     name: 'Adithiya Maharaj',
     role: 'Co-Founder and Developer',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d',
+    image: '../src/assets/adi_founder.jpg',
     linkedin: '#'
   }
 ];
@@ -19,7 +19,7 @@ export function Team() {
   return (
     <div className="min-h-screen py-32">
       <div className="container mx-auto px-6">
-        <h1 className="font-jacques text-5xl mb-16">Meet Our Experts</h1>
+        <h1 className="font-jacques text-5xl mb-16">Meet Our Founders</h1>
         
         <div className="space-y-12">
           {team.map((member, index) => (
