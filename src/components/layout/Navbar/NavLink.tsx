@@ -13,8 +13,8 @@ export function NavLink({ to, children, className = '' }: NavLinkProps) {
   return (
     <Link
       to={to}
-      className={`hover:text-primary-blue transition-colors ${
-        isActive ? 'text-primary-blue' : ''
+      className={`hover:text-gray-500 transition-colors ${
+        isActive ? 'text-gray-500 underline' : ''
       } ${className}`}
       onClick={() => {
         // Close mobile menu when a link is clicked
