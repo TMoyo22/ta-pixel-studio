@@ -43,7 +43,7 @@ export function Testimonials() {
             <ChevronLeft size={24} />
           </button>
           
-          <div className="bg-white p-6 rounded-lg shadow mx-12 items-center">
+          <div className="bg-white p-6 rounded-lg shadow mx-12 ">
             <p className="mb-4 text-lg">{testimonials[currentIndex].text}</p>
             <p className="font-semibold">{testimonials[currentIndex].author}</p>
             <p className="text-gray-600">{testimonials[currentIndex].company}</p>

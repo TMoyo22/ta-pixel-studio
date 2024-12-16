@@ -39,7 +39,7 @@ export function Team() {
                     href={member.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-primary-blue hover:text-secondary-blue"
+                    className="text-primary-blue hover:text-gray-500"
                   >
                     <Linkedin size={24} />
                   </a>
