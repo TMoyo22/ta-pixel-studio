@@ -27,7 +27,7 @@ export function Expertise() {
           </div>
           <div>
             <img 
-              src="../src/assets/service_img1.jpg"
+              src="/assets/service_img1.jpg"
               alt="Digital Services"
               className="rounded-[10px] w-full h-[400px] object-cover"
             />

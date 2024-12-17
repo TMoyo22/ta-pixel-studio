@@ -25,18 +25,18 @@ export function Services() {
             />
           </div>
         </div>
-        <div className="gap-2 flex flex-row justify-center mb-4 mt-11">
-    <div className="mx-2 pt-11">
-        <span className="bg-white border border-black rounded-[15px] px-2 py-1 sm:px-4 sm:py-2 w-auto">
-          Web Development
-        </span>
-    </div>
-    <div className="mx-2 pt-11">
-        <span className="bg-white border border-black rounded-[15px] px-2 py-1 sm:px-4 sm:py-2 w-auto">
-          Digital Marketing
-        </span>
-    </div>
-</div>
+        <div className="flex flex-wrap justify-center gap-4 mb-4 mt-11">
+          <div className="pt-11">
+            <span className="inline-block bg-white border border-black rounded-[15px] px-2 py-1 text-sm sm:text-base sm:px-4 sm:py-2 whitespace-nowrap">
+              Web Development
+            </span>
+          </div>
+          <div className="pt-11">
+            <span className="inline-block bg-white border border-black rounded-[15px] px-2 py-1 text-sm sm:text-base sm:px-4 sm:py-2 whitespace-nowrap">
+              Digital Marketing
+            </span>
+          </div>
+        </div>
 
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
