@@ -19,7 +19,7 @@ export function Services() {
           </div>
           <div>
             <img 
-              src="/public/assets/home_img1.jpg"
+              src="/assets/home_img1.jpg"
               alt="Digital Transformation"
               className="rounded-[15px] w-full h-[400px] object-cover"
             />

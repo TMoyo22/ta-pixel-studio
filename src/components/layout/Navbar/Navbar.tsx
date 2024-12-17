@@ -27,7 +27,7 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <Link to="/" className="flex items-center">
-          <img src="/src/assets/logo_black.png" alt="T&A Pixel Studio" className="h-8" />
+          <img src="/assets/logo_black.png" alt="T&A Pixel Studio" className="h-8" />
         </Link>
 
         {/* Desktop Navigation */}
