@@ -13,7 +13,7 @@ export function Services() {
             <p className="mb-6">
               At T&A Pixel Studio, we craft digital experiences that align with your business objectives.
             </p>
-            <Button to="/services" variant="primary" className="flex items-center gap-2">
+            <Button to="/services" variant="primary" className="flex items-center gap-2 w-fit">
               Explore Our Services <ArrowRight size={20} />
             </Button>
           </div>
