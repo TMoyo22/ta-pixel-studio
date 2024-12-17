@@ -4,14 +4,14 @@ const team = [
   {
     name: 'Tatenda Moyo',
     role: 'Co-Founder and Developer',
-    image: '../src/assets/tee_founder.jpg',
-    linkedin: '#'
+    image: '/assets/tee_founder.jpg',
+    linkedin: 'https://www.linkedin.com/in/tatenda-moyo-576235220/'
   },
   {
     name: 'Adithiya Maharaj',
     role: 'Co-Founder and Developer',
-    image: '../src/assets/adi_founder.jpg',
-    linkedin: '#'
+    image: '/assets/adi_founder.jpg',
+    linkedin: 'https://www.linkedin.com/in/adithiya-premraj-maharaj-a39100274/'
   }
 ];
 

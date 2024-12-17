@@ -6,7 +6,7 @@ export function Contact() {
     <div className="min-h-screen">
     <section 
       className="bg-cover bg-center text-white py-32"
-      style={{ backgroundImage: "url('../src/assets/contact_hero.jpg')" }} // Replace with your image path
+      style={{ backgroundImage: "url('/assets/contact_hero.jpg')" }} // Replace with your image path
     >
   <div className="container mx-auto px-6">
     <h1 className="font-jacques text-5xl mb-4">Contact Us</h1>
@@ -16,6 +16,19 @@ export function Contact() {
     </p>
   </div>
 </section>
+
+     <section 
+            className=" text-black flex items-center mt-20" 
+          >
+            <div className="container mx-auto px-6 text-center">
+              <h1 className="font-jacques text-5xl mb-7">
+                Start Your Journey With Us
+              </h1>
+              <p className="text-xl mb-8 max-w-2xl mx-auto">
+                Discover how T&A Pixel Studio can elavate your business through innovative digital solutions.
+              </p>
+            </div>
+          </section>
 
       <section className="py-16">
         <div className="container mx-auto px-6">

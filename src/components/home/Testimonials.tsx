@@ -32,10 +32,10 @@ export function Testimonials() {
 
   return (
     <section className="bg-gray-100 py-16">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 ">
         <h2 className="font-jacques text-4xl mb-12 text-center">Testimonials</h2>
-        <div className="max-w-3xl mx-auto relative">
-          <button 
+        <div className="max-w-3xl mx-auto relative ">
+          <button flex items-center
             onClick={prev}
             className="absolute left-0 top-1/2 -translate-y-1/2 p-2 hover:bg-gray-200 rounded-full"
             aria-label="Previous testimonial"
@@ -43,7 +43,7 @@ export function Testimonials() {
             <ChevronLeft size={24} />
           </button>
           
-          <div className="bg-white p-6 rounded-lg shadow mx-12 ">
+          <div className="bg-white p-6 rounded-lg shadow mx-12  text-center">
             <p className="mb-4 text-lg">{testimonials[currentIndex].text}</p>
             <p className="font-semibold">{testimonials[currentIndex].author}</p>
             <p className="text-gray-600">{testimonials[currentIndex].company}</p>
