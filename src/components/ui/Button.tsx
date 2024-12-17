@@ -7,6 +7,7 @@ interface ButtonProps {
   onClick?: () => void;
   variant?: 'primary' | 'secondary' | 'inverted';
   className?: string;
+  type?: 'button' | 'submit';
 }
 
 export function Button({ 
@@ -14,7 +15,8 @@ export function Button({
   to, 
   onClick, 
   variant = 'primary',
-  className = ''
+  className = '',
+  type = 'button'
 }: ButtonProps) {
   const baseStyles = "px-4 py-2 rounded-md transition-colors text-center";
   const variants = {
@@ -27,14 +29,14 @@ export function Button({
 
   if (to) {
     return (
-      <Link to={to} className={buttonStyles}>
+      <Link to={to} className={buttonStyles} onClick={onClick}>
         {children}
       </Link>
     );
   }
 
   return (
-    <button onClick={onClick} className={buttonStyles}>
+    <button onClick={onClick} type={type} className={buttonStyles}>
       {children}
     </button>
   );

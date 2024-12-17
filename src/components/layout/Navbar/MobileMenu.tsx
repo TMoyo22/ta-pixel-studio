@@ -6,6 +6,10 @@ import { Button } from '../../ui/Button';
 export function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div className="md:hidden relative">
       <button
@@ -19,10 +23,10 @@ export function MobileMenu() {
       {isOpen && (
         <div className="absolute top-full right-0 w-48 bg-white shadow-lg rounded-lg py-4 mt-2">
           <div className="flex flex-col space-y-4 px-4">
-            <NavLink to="/" className="block w-full text-left">Home</NavLink>
-            <NavLink to="/services" className="block w-full text-left">Services</NavLink>
-            <NavLink to="/team" className="block w-full text-left">Team</NavLink>
-            <Button to="/contact" variant="primary" className="w-full">Contact Us</Button>
+            <NavLink to="/" className="block w-full text-left" onClick={handleLinkClick}>Home</NavLink>
+            <NavLink to="/services" className="block w-full text-left" onClick={handleLinkClick}>Services</NavLink>
+            <NavLink to="/team" className="block w-full text-left" onClick={handleLinkClick}>Team</NavLink>
+            <Button to="/contact" variant="primary" className="w-full" onClick={handleLinkClick}>Contact Us</Button>
           </div>
         </div>
       )}

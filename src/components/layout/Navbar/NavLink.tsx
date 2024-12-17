@@ -4,9 +4,10 @@ interface NavLinkProps {
   to: string;
   children: React.ReactNode;
   className?: string;
+  onClick?: () => void;
 }
 
-export function NavLink({ to, children, className = '' }: NavLinkProps) {
+export function NavLink({ to, children, className = '', onClick }: NavLinkProps) {
   const location = useLocation();
   const isActive = location.pathname === to;
 
@@ -14,15 +15,9 @@ export function NavLink({ to, children, className = '' }: NavLinkProps) {
     <Link
       to={to}
       className={`hover:text-gray-500 transition-colors ${
-        isActive ? 'text-gray-500 underline' : ''
+        isActive ? 'text-gray-500' : ''
       } ${className}`}
-      onClick={() => {
-        // Close mobile menu when a link is clicked
-        const mobileMenu = document.querySelector('.mobile-menu');
-        if (mobileMenu) {
-          mobileMenu.classList.remove('show');
-        }
-      }}
+      onClick={onClick}
     >
       {children}
     </Link>
