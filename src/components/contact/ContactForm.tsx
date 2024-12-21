@@ -63,7 +63,7 @@ export function ContactForm() {
     }
 
     try {
-      const response = await fetch('https://pixel-server-1.onrender.com', {
+      const response = await fetch('https://pixel-server-1.onrender.com/send-email', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
