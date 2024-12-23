@@ -10,7 +10,7 @@ export function Hero() {
           <h1 className="font-jacques text-5xl mb-4 text-center">
             Explore Our Services
           </h1>
-          <p className="text-xl max-w-md ml-auto">
+          <p className="text-xl mb-8 max-w-2xl mx-auto text-center">
             Discover tailored web development and digital marketing solutions for SMEs.
           </p>
         </div>
